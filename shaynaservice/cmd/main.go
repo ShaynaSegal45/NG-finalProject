@@ -22,7 +22,6 @@ const (
 func main() {
 	fmt.Println("Hello World")
 
-
 	configurator := config.NewConfigurator("config/development")
 
 	// loggerator (loggers factory)
